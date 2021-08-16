@@ -5,8 +5,8 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+
+import { LearnMoreButton, LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
   <Section row nopadding>
@@ -18,7 +18,7 @@ const Hero = (props) => (
         CS student | Developer | Problem Solver |<br />
         <span> Open Source Enthusiast </span>
       </SectionText>
-      <Button onClick={() => (window.location = "#about")}>Learn More</Button>
+      <LearnMoreButton href="#about">Learn More</LearnMoreButton>
     </LeftSection>
   </Section>
 );

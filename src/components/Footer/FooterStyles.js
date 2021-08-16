@@ -109,18 +109,25 @@ export const SocialContainer = styled.div`
   }
 `;
 
-export const ResumeButton = styled.button`
+export const ResumeButton = styled.a`
   //   padding-left: 70px;
   //   padding-right: 70px;
   color: black;
+  background-color: rgba(255, 255, 255, 0.75);
+
+  text-align: center;
   transition: 0.3s ease;
   border-radius: 50px;
   padding: 25px;
   &:hover {
     background-color: #212d45;
-	color: white;
+    color: white;
     transform: scale(1.2);
     cursor: pointer;
+  }
+  &:active{
+    background-color: #fff;
+    color: black;
   }
   grid-column: -1 / span 1;
   align-self: center;

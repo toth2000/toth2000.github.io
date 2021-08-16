@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import {
   AiFillGithub,
@@ -22,33 +21,31 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
-        </a>
-      </Link>
+      <a
+        href="/"
+        style={{ display: "flex", alignItems: "center", color: "white" }}
+      >
+        <DiCssdeck size="3rem" />
+        <Span>Portfolio</Span>
+      </a>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
+        <NavLink href="#projects">Projects</NavLink>
       </li>
       <li>
-        <Link href="#technologies">
-          <NavLink>Technologies</NavLink>
-        </Link>
+        <NavLink href="#technologies">Technologies</NavLink>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
+        <NavLink href="#about">About</NavLink>
       </li>
       <li>
-        <a href="https://docs.google.com/document/d/1u49-p6otu7UCIHiZaEAniTIW1xcB5vB8HVnnN-g7OYw/edit?usp=sharing" target="_blank" >
-          <NavLink>Resume</NavLink>
-        </a>
+        <NavLink
+          href="https://docs.google.com/document/d/1u49-p6otu7UCIHiZaEAniTIW1xcB5vB8HVnnN-g7OYw/edit?usp=sharing"
+          target="_blank"
+        >
+          Resume
+        </NavLink>
       </li>
     </Div2>
     <Div3>

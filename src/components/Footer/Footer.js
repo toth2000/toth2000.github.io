@@ -34,10 +34,8 @@ const Footer = () => {
           </LinkItem>
         </LinkColumn>
         <ResumeButton
-          onClick={() =>
-            (window.location =
-              "https://docs.google.com/document/d/1u49-p6otu7UCIHiZaEAniTIW1xcB5vB8HVnnN-g7OYw/edit?usp=sharing")
-          }
+          href="https://docs.google.com/document/d/1u49-p6otu7UCIHiZaEAniTIW1xcB5vB8HVnnN-g7OYw/edit?usp=sharing"
+          target="_blank"
         >
           Resume{" "}
         </ResumeButton>

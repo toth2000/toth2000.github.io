@@ -38,8 +38,10 @@ const Technologies = () => (
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         {" "}
-        I am currently studying B.Tech (Bachelor of Technology) in Computer Science
-        and Engineering. I expect to graduate in Spring, 2023.
+        I am currently studying B.Tech (Bachelor of Technology) in Computer
+        Science and Engineering. I expect to graduate in Spring, 2023. I love
+        computers and exploring new technologies. I like to participate in
+        Hackathon where I try to build impactful projects.
       </SectionText>
     </Section>
     <Section id="language">

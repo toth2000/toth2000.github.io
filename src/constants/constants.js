@@ -22,9 +22,8 @@ export const projects = [
   },
   {
     title: "CheeryMate",
-    description: "Android App to help people suffering from depression",
-    image:
-      "/images/cheerymate.png",
+    description: "An Android App to help people suffering from depression",
+    image: "/images/cheerymate.png",
     tags: ["Android Studio", "Firebase", "Java"],
     source: "https://github.com/toth2000/CheeryMate",
     visit: "https://cheerymate.page.link/download",
@@ -41,6 +40,16 @@ export const projects = [
     id: 3,
   },
   {
+    title: "Trackify",
+    description:
+      "Trackify is an Android App that predicts when a vehicle will require servicing and the type of servicing.",
+    image: "/images/trackify.png",
+    tags: ["Android Studio", "Firebase"],
+    source: "https://github.com/toth2000/trackify",
+    visit: "https://devpost.com/software/trackify-gsal28",
+    id: 4,
+  },
+  {
     title: "OmniFood",
     description: "A simple responsive website",
     image:
@@ -48,7 +57,7 @@ export const projects = [
     tags: ["HTML", "CSS"],
     source: "https://github.com/toth2000/Responsive-Web-development",
     visit: "https://tothagata.me/Responsive-Web-development/",
-    id: 4,
+    id: 5,
   },
 ];
 

@@ -29,7 +29,7 @@ export const projects = [
       "https://raw.githubusercontent.com/toth2000/webChat/master/screenshot/Screenshot%202021-09-09%20230632.png",
     tags: ["React", "Firebase"],
     source: "https://github.com/toth2000/webChat",
-    visit: "https://tothagata.me/webChat",
+    visit: "https://toth2000.github.io/webChat",
     id: 6,
   },
   {
@@ -40,7 +40,7 @@ export const projects = [
       "https://raw.githubusercontent.com/toth2000/memPic/master/screenshot/MemPic_SS.png",
     tags: ["Mongoose", "Express", "React", "Node", "Redux"],
     source: "https://github.com/toth2000/memPic",
-    visit: "http://tothagata.me/memPic",
+    visit: "https://toth2000.github.io/memPic/",
     id: 5,
   },
   {
@@ -50,7 +50,7 @@ export const projects = [
       "https://raw.githubusercontent.com/toth2000/chatBit/master/screenshot/ChatBit_SS.png",
     tags: ["React", "Express", "Node", "SocketIo"],
     source: "https://github.com/toth2000/chatBit",
-    visit: "https://tothagata.me/chatBit/",
+    visit: "https://toth2000.github.io/chatBit/",
     id: 4,
   },
   {
@@ -89,7 +89,7 @@ export const projects = [
       "https://raw.githubusercontent.com/toth2000/Responsive-Web-development/master/screenshot/omnifood_SS.png",
     tags: ["HTML", "CSS"],
     source: "https://github.com/toth2000/Responsive-Web-development",
-    visit: "https://tothagata.me/Responsive-Web-development/",
+    visit: "https://toth2000.github.io/Responsive-Web-development/",
     id: 0,
   },
 ];

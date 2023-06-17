@@ -79,7 +79,7 @@ const Technologies = () => (
           </IconContainer>
           <ListContainer>
             <ListTitle>Front-End</ListTitle>
-            <ListParagraph>HTML | CSS | React.js | ReactNative | Redux</ListParagraph>
+            <ListParagraph>HTML | CSS | React.js | Redux</ListParagraph>
           </ListContainer>
         </ListItem>
         <ListItem>
@@ -101,10 +101,11 @@ const Technologies = () => (
         <ListItem>
           <IconContainer>
             <SiAndroidstudio size="3rem" />
+            <SiReact size="3rem" />
           </IconContainer>
           <ListContainer>
             <ListTitle>Mobile-Development</ListTitle>
-            <ListParagraph>Android Studio</ListParagraph>
+            <ListParagraph>Android Studio | ReactNative</ListParagraph>
           </ListContainer>
         </ListItem>
       </List>

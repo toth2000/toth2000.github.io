@@ -66,7 +66,7 @@ const Technologies = () => (
       <br />
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
-        I know Full Stack Web Development and Android Development. <br />
+        I know Full Stack Web & App Development. <br />
         The technologies that I work with includes:
       </SectionText>
       <List>
@@ -79,7 +79,7 @@ const Technologies = () => (
           </IconContainer>
           <ListContainer>
             <ListTitle>Front-End</ListTitle>
-            <ListParagraph>HTML | CSS | React.js | Redux</ListParagraph>
+            <ListParagraph>HTML | CSS | React.js | ReactNative | Redux</ListParagraph>
           </ListContainer>
         </ListItem>
         <ListItem>

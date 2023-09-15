@@ -8,6 +8,17 @@ export const projects = [
     tags: ["Mongoose", "Express", "React", "Node", "Redux"],
     source: "https://github.com/toth2000/storeX-website",
     visit: "https://store-x-website.vercel.app/",
+    id: 9,
+  },
+  {
+    title: "ConvoAi",
+    description:
+      "Frontend website for interacting with a custom language model (ChatGPT Frontend clone).",
+    image:
+      "https://raw.githubusercontent.com/toth2000/convoAi/master/screenshots/convo-ai.png",
+    tags: ["React", "Websocket"],
+    source: "https://github.com/toth2000/convoAi",
+    visit: "https://convo-ai-chat.vercel.app/",
     id: 8,
   },
   {
@@ -98,8 +109,7 @@ export const experiences = [
   {
     company: "Influenxing Tech",
     position: "Intern Developer",
-    description:
-      `1. Working on  frontend UI of the main mobile application\n2. Integrating APIs and fixing bugs`,
+    description: `1. Working on  frontend UI of the main mobile application\n2. Integrating APIs and fixing bugs`,
     logo: "https://raw.githubusercontent.com/toth2000/toth2000.github.io/master/screenshot/influexing.jpeg",
     Date: "14 April - Present",
     link: "https://influenxing.com/",
@@ -108,8 +118,7 @@ export const experiences = [
   {
     company: "ThriftySoft",
     position: "Full-stack Intern",
-    description:
-      `1. Working on Several ReactJS Applications.\n2.Integrating REST APIs.\n3.Handling the State of the App using Redux & Context API
+    description: `1. Working on Several ReactJS Applications.\n2.Integrating REST APIs.\n3.Handling the State of the App using Redux & Context API
       `,
     logo: "https://raw.githubusercontent.com/toth2000/toth2000.github.io/master/screenshot/thriftySoft.jpeg",
     Date: "6 May 2022 - 30 June 2022",
@@ -119,8 +128,7 @@ export const experiences = [
   {
     company: "Eco Alarmist",
     position: "Tech Lead Volunteer",
-    description:
-      `1. Developed a donation portal that helped collect more than ₹ 1 Lakh for Covid-19 and Assam flood relief.\n2. Developed Covid-19 Portal for North East India to provide resources and helpline numbers which had more than 10k visitor      
+    description: `1. Developed a donation portal that helped collect more than ₹ 1 Lakh for Covid-19 and Assam flood relief.\n2. Developed Covid-19 Portal for North East India to provide resources and helpline numbers which had more than 10k visitor      
       `,
     logo: "https://raw.githubusercontent.com/toth2000/toth2000.github.io/master/screenshot/ecoalarmist.jpeg",
     Date: "August 2020 - Present",
@@ -128,9 +136,6 @@ export const experiences = [
     id: 2,
   },
 ];
-
-
-
 
 // export const TimeLineData = [
 //   { year: 2019, text: 'Started my journey', },

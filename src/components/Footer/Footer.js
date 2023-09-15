@@ -18,6 +18,7 @@ import {
   SocialContainer,
   SocialIconsContainer,
 } from "./FooterStyles";
+import { RESUME_URL } from "../../constants/url";
 
 const Footer = () => {
   return (
@@ -34,7 +35,7 @@ const Footer = () => {
           </LinkItem>
         </LinkColumn>
         <ResumeButton
-          href="https://docs.google.com/document/d/1u49-p6otu7UCIHiZaEAniTIW1xcB5vB8HVnnN-g7OYw/edit?usp=sharing"
+          href={RESUME_URL}
           target="_blank"
         >
           Resume{" "}

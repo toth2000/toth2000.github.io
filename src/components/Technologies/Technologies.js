@@ -29,6 +29,7 @@ import {
   ListTitle,
   IconContainer,
 } from "./TechnologiesStyles";
+import { AboutMeText } from "../../constants/constants";
 
 const Technologies = () => (
   <>
@@ -38,10 +39,7 @@ const Technologies = () => (
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         {" "}
-        I am currently studying B.Tech (Bachelor of Technology) in Computer
-        Science and Engineering. I expect to graduate in Spring, 2023. I love
-        computers and exploring new technologies. I like to participate in
-        Hackathon where I try to build impactful projects.
+        {AboutMeText}
       </SectionText>
     </Section>
     <Section id="language">
@@ -66,7 +64,7 @@ const Technologies = () => (
       <br />
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
-        I know Full Stack Web & App Development. <br />
+        My are of interest includes full stack web and app development. <br />
         The technologies that I work with includes:
       </SectionText>
       <List>

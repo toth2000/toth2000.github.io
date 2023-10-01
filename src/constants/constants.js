@@ -148,6 +148,9 @@ export const experiences = [
   },
 ];
 
+export const AboutMeText =
+  "I am a computer science graduate seeking a challenging full-time role to kickstart a career in the dynamic field of software development. Eager to employ my skills, learnings, passion for coding, and problem-solving skills to contribute to innovative projects and grow";
+
 // export const TimeLineData = [
 //   { year: 2019, text: 'Started my journey', },
 //   { year: 2020, text: 'My First Hackathon', }

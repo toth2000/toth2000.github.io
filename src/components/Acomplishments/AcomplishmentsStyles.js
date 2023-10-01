@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const Boxes = styled.div`
+  
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -25,7 +26,7 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212D45;
   border-radius: 12px;
-  height: 144px;
+  flex: 1;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;

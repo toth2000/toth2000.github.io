@@ -1,25 +1,24 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
-
-const data = [
-  { number: 7, text: 'Open Source Projects'},
-  { number: 2, text: 'Hackathon win', },
-  { number: 9, text: 'Github Followers', },
-];
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
+import { acomplishmentData } from "../../constants/constants";
 
 const Acomplishments = () => (
   <Section>
     <SectionTitle>Personal Acomplishments</SectionTitle>
     <Boxes>
-      {data.map((card, index)=> {
+      {acomplishmentData.map((card, index) => {
         return (
-          <Box key={index} >
-            <BoxNum >{card.number}</BoxNum>
+          <Box key={index}>
+            <BoxNum>{card.number}</BoxNum>
             <BoxText>{card.text}</BoxText>
-            </Box>
-        )
+          </Box>
+        );
       })}
     </Boxes>
   </Section>

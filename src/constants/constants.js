@@ -151,6 +151,26 @@ export const experiences = [
 export const AboutMeText =
   "I am a computer science graduate seeking a challenging full-time role to kickstart a career in the dynamic field of software development. Eager to employ my skills, learnings, passion for coding, and problem-solving skills to contribute to innovative projects and grow";
 
+export const acomplishmentData = [
+  { number: "SIH 2022", text: "Grand Finalist, Smart India Hackathon 2022" },
+  {
+    number: "7",
+    text: "Web dev  workshops conducted for the university club.",
+  },
+  {
+    number: "50+",
+    text: "Students began their web-dev journey with my assistance",
+  },
+  {
+    number: "INR 1 Lakh",
+    text: "Raised for a NGO through a donation portal that I built",
+  },
+  {
+    number: "10K +",
+    text: "Visitors were attracted within a month to the Covid-19 portal that I built.",
+  },
+];
+
 // export const TimeLineData = [
 //   { year: 2019, text: 'Started my journey', },
 //   { year: 2020, text: 'My First Hackathon', }

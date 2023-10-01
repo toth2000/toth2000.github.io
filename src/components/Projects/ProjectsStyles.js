@@ -53,8 +53,6 @@ export const GridContainer = styled.section`
     padding: 2rem;
     padding-bottom: 0;
   }
-
-
 `;
 export const BlogCard = styled.div`
   border-radius: 10px;
@@ -133,6 +131,8 @@ export const TagList = styled.ul`
   display: flex;
   justify-content: space-around;
   padding: 2rem;
+  gap: 5px;
+  flex-wrap: wrap;
 `;
 export const Tag = styled.li`
   color: #d8bfbf;

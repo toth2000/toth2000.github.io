@@ -122,7 +122,7 @@ export const experiences = [
     position: "Intern Developer",
     description: `1. Working on  frontend UI of the main mobile application\n2. Integrating APIs and fixing bugs`,
     logo: "https://raw.githubusercontent.com/toth2000/toth2000.github.io/master/screenshot/influexing.jpeg",
-    Date: "14 April 2022 - Present",
+    Date: "14 April 2023 - Present",
     link: "https://influenxing.com/",
     id: 0,
   },
